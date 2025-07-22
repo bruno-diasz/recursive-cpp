@@ -1,36 +1,6 @@
-Recursivo 1:0 |Interativo 1:0
-Recursivo 2:0 |Interativo 2:0
-Recursivo 3:0 |Interativo 3:0
-Recursivo 4:0 |Interativo 4:0
-Recursivo 5:0 |Interativo 5:0
-Recursivo 1:0 |Interativo 1:0
-Recursivo 2:0 |Interativo 2:0
-Recursivo 3:0 |Interativo 3:0
-Recursivo 4:0 |Interativo 4:0
-Recursivo 5:0 |Interativo 5:0
-Recursivo 1:0 |Interativo 1:0
-Recursivo 2:0 |Interativo 2:0
-Recursivo 3:0 |Interativo 3:0
-Recursivo 4:0 |Interativo 4:0
-Recursivo 5:0 |Interativo 5:0
-Recursivo 1:2 |Interativo 1:1
-Recursivo 2:1 |Interativo 2:1
-Recursivo 3:1 |Interativo 3:1
-Recursivo 4:1 |Interativo 4:2
-Recursivo 5:3 |Interativo 5:2
-Recursivo 1:1 |Interativo 1:1
-Recursivo 2:2 |Interativo 2:1
-Recursivo 3:3 |Interativo 3:1
-Recursivo 4:1 |Interativo 4:1
-Recursivo 5:10 |Interativo 5:1
-Recursivo 1:2 |Interativo 1:1
-Recursivo 2:4 |Interativo 2:1
-Recursivo 3:1 |Interativo 3:1
-Recursivo 4:1 |Interativo 4:1
-Recursivo 5:2 |Interativo 5:1
-Recursivo 1:17 |Interativo 1:1
-Entrada: 10 | Recursivo: 3628800 (2 µs) | Interativo: 3628800 (1 µs)
-Entrada: 30 | Recursivo: -8764578968847253504 (3 µs) | Interativo: -8764578968847253504 (2 µs)
-Entrada: 50 | Recursivo: -3258495067890909184 (1 µs) | Interativo: -3258495067890909184 (1 µs)
-Entrada: 100 | Recursivo: 0 (2 µs) | Interativo: 0 (1 µs)
-Entrada: 200 | Recursivo: 0 (2 µs) | Interativo: 0 (1 µs)
+entrada,tempo_recursivo_ns,tempo_iterativo_ns
+10,1397,1467
+15,1956,1467
+20,2374,2375
+25,2305,2375
+30,2374,1397

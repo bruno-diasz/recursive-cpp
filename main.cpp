@@ -81,6 +81,8 @@ int main()
             else if (op == 3)
             {
                 ofstream arquivo("fatorial_analise.txt", ios::app);
+                arquivo << "entrada,tempo_recursivo_ns,tempo_iterativo_ns\n";
+
 
                 for (int i = 0; i < 5; i++)
                 {
@@ -96,13 +98,10 @@ int main()
                     long long resultado_interativo = fatorial_interativo(n);
                     auto fim_int = high_resolution_clock::now();
 
-                    auto duracao_rec = duration_cast<microseconds>(fim_rec - inicio_rec);
-                    auto duracao_int = duration_cast<microseconds>(fim_int - inicio_int);
+                    auto duracao_rec = duration_cast<nanoseconds>(fim_rec - inicio_rec);
+                    auto duracao_int = duration_cast<nanoseconds>(fim_int - inicio_int);
 
-                    arquivo << "Entrada: " << n
-                            << " | Recursivo: " << resultado_recursivo << " (" << duracao_rec.count() << " µs)"
-                            << " | Interativo: " << resultado_interativo << " (" << duracao_int.count() << " µs)"
-                            << endl;
+                    arquivo << n << "," << duracao_rec.count() << "," << duracao_int.count() << endl;
                 }
                 arquivo.close();
             }
@@ -133,6 +132,7 @@ int main()
             else if (op == 3)
             {
                 ofstream arquivo("fibonacci_analise.txt", ios::app);
+                arquivo << "entrada,tempo_recursivo_ns,tempo_iterativo_ns\n";
 
                 for (int i = 0; i < 5; i++)
                 {
@@ -148,13 +148,10 @@ int main()
                     long long resultado_interativo = fibonacci_interativo(n);
                     auto fim_int = high_resolution_clock::now();
 
-                    auto duracao_rec = duration_cast<microseconds>(fim_rec - inicio_rec);
-                    auto duracao_int = duration_cast<microseconds>(fim_int - inicio_int);
+                    auto duracao_rec = duration_cast<nanoseconds>(fim_rec - inicio_rec);
+                    auto duracao_int = duration_cast<nanoseconds>(fim_int - inicio_int);
+                    arquivo << n << "," << duracao_rec.count() << "," << duracao_int.count() << endl;
 
-                    arquivo << "Entrada: " << n
-                            << " | Recursivo: " << resultado_recursivo << " (" << duracao_rec.count() << " µs)"
-                            << " | Interativo: " << resultado_interativo << " (" << duracao_int.count() << " µs)"
-                            << endl;
                 }
                 arquivo.close();
             }

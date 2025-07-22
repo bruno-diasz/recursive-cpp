@@ -1,7 +1,6 @@
-Entrada: 6 | Recursivo: 8 (1 µs) | Interativo: 8 (1 µs)
-Entrada: 8 | Recursivo: 21 (1 µs) | Interativo: 21 (1 µs)
-Entrada: 15 | Recursivo: 610 (28 µs) | Interativo: 610 (1 µs)
-Entrada: 19 | Recursivo: 4181 (43 µs) | Interativo: 4181 (1 µs)
-Entrada: 27 | Recursivo: 196418 (2329 µs) | Interativo: 196418 (0 µs)
-Entrada: 30 | Recursivo: 832040 (9030 µs) | Interativo: 832040 (1 µs)
-Entrada: 45 | Recursivo: 1134903170 (8069621 µs) | Interativo: 1134903170 (1 µs)
+entrada,tempo_recursivo_ns,tempo_iterativo_ns
+10,7543,1955
+15,17041,2933
+20,167829,1956
+25,1589109,1885
+30,8456296,1397
