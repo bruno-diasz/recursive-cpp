@@ -1,4 +1,0 @@
-https://www.todamateria.com.br/sequencia-de-fibonacci/
-https://www.todamateria.com.br/fatorial/
-https://homepages.dcc.ufmg.br/~camarao/ipcc/livro006.html
-https://medium.com/3xbit-academy/recursividade-ou-iteratividade-qual-%C3%A9-a-melhor-f229c7463ce6
